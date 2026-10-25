@@ -6,16 +6,16 @@
 
 | 小项目 | 虚构目标 | 状态 |
 | --- | --- | --- |
-| 月亮收纳盒 | 把灵感装进 Markdown | 已完成 |
+| 彩虹收纳盒 | 把灵感装进 Markdown | 已完成 |
 | 云朵咖啡机 | 为想象力加一点奶泡 | 试验中 |
 | 星星邮局 | 给明天寄一封小信 | 计划中 |
 
 ## 这个站如何更新？
 
 ```text
-本地修改 docs/*.md
+GitHub 网页编辑 docs/*.md（也支持本地 Git 提交）
         ↓
-git add → git commit → git push
+提交修改到 main
         ↓
 GitHub Actions 自动构建 MkDocs
         ↓
