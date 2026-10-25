@@ -1,0 +1,29 @@
+site_name: 星光笔记 · 示例文档
+site_description: 一个完全虚构的个人文档站，用于演示 git push 自动发布。
+site_url: https://hyacinth11.github.io/starlight-docs-demo/
+repo_url: https://github.com/Hyacinth11/starlight-docs-demo
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  language: zh
+  palette:
+    primary: deep purple
+    accent: amber
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.action.edit
+    - content.code.copy
+nav:
+  - 首页: index.md
+  - 快速开始: getting-started.md
+  - 更新日志: changelog.md
+  - 常见问题: faq.md
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - fenced_code
+  - tables
+  - toc:
+      permalink: true
